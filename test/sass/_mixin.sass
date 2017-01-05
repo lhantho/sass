@@ -1,0 +1,14 @@
+@mixin border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  -ms-border-radius: $radius
+  border-radius: $radius
+
+@mixin ombre-portee()
+  box-shadow: 10px 5px 5px black
+
+@mixin ombre-portee-parametree($offset, $blur)
+  box-shadow: $offset $offset $blur black
+
+@mixin ombre-portee-parametree2($offset,$offset2, $blur)
+  box-shadow: $offset $offset $blur black
